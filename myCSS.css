@@ -3,6 +3,23 @@
 body {
 	margin: 0 auto;
 }
+body {
+     font: 100%/14ptx sans-serif;
+     background-color: #000000;
+     margin: 0;
+     padding: 0;
+     color: #02010A;
+}
+
+a:link {
+     color: #0C041A;
+}
+a:visited {
+     color: #6D25E6;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
+}
 .homePage {
 	background: #9C8FF0;
 }
@@ -18,7 +35,6 @@ body {
 	float: left;
 	width: 100%;
 	height: 80px;
-	
 }
 .nav {
 	background: #B7A8F7;
